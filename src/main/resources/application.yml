@@ -16,7 +16,7 @@ logging:
 rocketmq:
   config:
     webTelemetryPath: /metrics
-    namesrvAddr: rmqnamesrv:9876
+    namesrvAddr: "10.134.117.253:8100;10.134.114.42:8100"
     rocketmqVersion: 4_9_4
     enableCollect: true
     enableACL: false # if >=4.4.0
